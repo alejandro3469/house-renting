@@ -20,61 +20,63 @@ export default function Home() {
           alt="Picture of the author"
           width={606.625}
           height={404.375}
-          
         />
         <div>
           <h1>Casa completa</h1>
           <h2>Mérida, Yucatán</h2>
         </div>
 
-        <div className="summary">
-          <a href={"#bedrooms"} className="item">
-            <div>🛏️{/*<Image src={Bed} alt="bed icon" />*/}</div>
-            <div>3 Recamaras</div>
-          </a>
-          <a href={"#livingroom"} className="item">
-            <div>📺{/*<Image src={Coach} alt="bed icon" />*/}</div>
-            <div>Sala</div>
-          </a>
-          <a href={"#kitchen"} className="item">
-            <div>🍳{/*<Image src={Kitchen} alt="bed icon" />*/}</div>
-            <div>Cocina</div>
-          </a>
-          <a href={"#diningroom"} className="item">
-            <div>🍽️{/*<Image src={Diningroom} alt="bed icon" />*/}</div>
-            <div>Comedor</div>
-          </a>
-          <a href={"#bathrooms"} className="item">
-            <div>🛀{/*<Image src={Bathrooms} alt="bed icon" />*/}</div>
-            <div>3 Baños</div>
-          </a>
-          <div className="item">
-            <div>🅿️{/*<Image src={Parking} alt="bed icon" />*/}</div>
-            <div>Estacionamiento (1)</div>
-          </div>
-          <div className="item">
-            <div>🏊{/*<Image src={Pool} alt="bed icon" />*/}</div>
-            <div>Alberca</div>
-          </div>
-          <div className="item">
-            <div>❄️{/*<Image src={Pool} alt="bed icon" />*/}</div>
-            <div>3 Aire acondicionado</div>
-          </div>
-          <div className="item">
-            <div>📶{/*<Image src={Pool} alt="bed icon" />*/}</div>
-            <div>Wifi</div>
-          </div>
-          <div className="item">
-            <div>👮{/*<Image src={Pool} alt="bed icon" />*/}</div>
-            <div>CCTV</div>
-          </div>
-          <div className="item">
-            <div>🌿{/*<Image src={Pool} alt="bed icon" />*/}</div>
-            <div>Jardin</div>
-          </div>
-          <div className="item">
-            <div>☕{/*<Image src={Pool} alt="bed icon" />*/}</div>
-            <div>Cafetera</div>
+        <div>
+          <h3>Comodidades</h3>
+          <div className="summary">
+            <a href={"#bedrooms"} className="item">
+              <div>🛏️{/*<Image src={Bed} alt="bed icon" />*/}</div>
+              <div>3 Recamaras</div>
+            </a>
+            <a href={"#livingroom"} className="item">
+              <div>📺{/*<Image src={Coach} alt="bed icon" />*/}</div>
+              <div>Sala</div>
+            </a>
+            <a href={"#kitchen"} className="item">
+              <div>🍳{/*<Image src={Kitchen} alt="bed icon" />*/}</div>
+              <div>Cocina</div>
+            </a>
+            <a href={"#diningroom"} className="item">
+              <div>🍽️{/*<Image src={Diningroom} alt="bed icon" />*/}</div>
+              <div>Comedor</div>
+            </a>
+            <a href={"#bathrooms"} className="item">
+              <div>🛀{/*<Image src={Bathrooms} alt="bed icon" />*/}</div>
+              <div>3 Baños</div>
+            </a>
+            <div className="item">
+              <div>🅿️{/*<Image src={Parking} alt="bed icon" />*/}</div>
+              <div>Estacionamiento (1)</div>
+            </div>
+            <div className="item">
+              <div>🏊{/*<Image src={Pool} alt="bed icon" />*/}</div>
+              <div>Alberca</div>
+            </div>
+            <div className="item">
+              <div>❄️{/*<Image src={Pool} alt="bed icon" />*/}</div>
+              <div>3 Aire acondicionado</div>
+            </div>
+            <div className="item">
+              <div>📶{/*<Image src={Pool} alt="bed icon" />*/}</div>
+              <div>Wifi</div>
+            </div>
+            <div className="item">
+              <div>👮{/*<Image src={Pool} alt="bed icon" />*/}</div>
+              <div>CCTV</div>
+            </div>
+            <div className="item">
+              <div>🌿{/*<Image src={Pool} alt="bed icon" />*/}</div>
+              <div>Jardin</div>
+            </div>
+            <div className="item">
+              <div>☕{/*<Image src={Pool} alt="bed icon" />*/}</div>
+              <div>Cafetera</div>
+            </div>
           </div>
         </div>
 
@@ -113,7 +115,15 @@ export default function Home() {
 
         <div>
           <h3>Ubicacion</h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12728549.208789088!2d-92.90230709857525!3d21.300425125660738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567b387aa3439b%3A0xca5915bdd39e84c5!2sLas%20Palmas%20Yucat%C3%A1n!5e0!3m2!1sen!2smx!4v1679264507243!5m2!1sen!2smx" width="600" height="450" style={{border:'0'}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12728549.208789088!2d-92.90230709857525!3d21.300425125660738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567b387aa3439b%3A0xca5915bdd39e84c5!2sLas%20Palmas%20Yucat%C3%A1n!5e0!3m2!1sen!2smx!4v1679264507243!5m2!1sen!2smx"
+            width="600"
+            height="450"
+            style={{ border: "0" }}
+            allowFullScreen={true}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
         <div id="bedrooms" className="room">
