@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import profilePic from "../public/photos/photo1.jpg";
+import Banner from "../public/photos/photo2.jpg";
 import Link from "next/link";
 import Bed from "../public/icons/king_bed_black_24dp.svg";
 import Coach from "../public/icons/weekend_black_24dp.svg";
@@ -62,6 +63,12 @@ export default function Home() {
             <div>Alberca (1)</div>
           </div>
         </div>
+        <Image
+            src={Banner}
+            alt="Picture of the author"
+            width={606.625}
+            height={404.375}
+        />
         <div id="bedrooms">
           <h3>Recamaras (3)</h3>
           <div>
