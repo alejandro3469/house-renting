@@ -26,24 +26,24 @@ export default function Home() {
             </div>
             <div>recamaras (3)</div>
           </a>
-          <div className="item">
+          <a href={"#livingroom"} className="item">
             <div>
               <Image src={Coach} alt="bed icon" />
             </div>
             <div>sala (1)</div>
-          </div>
-          <div className="item">
+          </a>
+          <a href={"#kitchen"} className="item">
             <div>
               <Image src={Kitchen} alt="bed icon" />
             </div>
             <div>cocina (1)</div>
-          </div>
-          <div className="item">
+          </a>
+          <a href={"#diningroom"} className="item">
             <div>
               <Image src={Diningroom} alt="bed icon" />
             </div>
             <div>comedor (1)</div>
-          </div>
+          </a>
           <a href={"#bathrooms"} className="item">
             <div>
               <Image src={Bathrooms} alt="bed icon" />
@@ -99,18 +99,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="room">
+        <div id="livingroom" className="room">
           <h3>Sala</h3>
         </div>
-        <div id="comedor" className="room">
+        <div id="diningroom" className="room">
           <h3>Comedor</h3>
           con mesa y 6 sillas
         </div>
-        <div className="room">
+        <div id="kitchen" className="room">
           <h3>Cocina</h3>
           Estufa Refrigerador Fregadero Cafetera
         </div>
-        <div className="room">
+        <div id="pool" className="room">
           <h3>Alberca</h3>
         </div>
         <div className="room">
