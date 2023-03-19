@@ -69,7 +69,7 @@ export default function Home() {
             width={606.625}
             height={404.375}
         />
-        <div id="bedrooms">
+        <div id="bedrooms" className="room">
           <h3>Recamaras (3)</h3>
           <div>
             <div>
@@ -99,24 +99,24 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="room">
           <h3>Sala</h3>
         </div>
-        <div id="comedor">
+        <div id="comedor" className="room">
           <h3>Comedor</h3>
           con mesa y 6 sillas
         </div>
-        <div>
+        <div className="room">
           <h3>Cocina</h3>
           Estufa Refrigerador Fregadero Cafetera
         </div>
-        <div>
+        <div className="room">
           <h3>Alberca</h3>
         </div>
-        <div>
+        <div className="room">
           <h3>Patio trasero</h3>
         </div>
-        <div>
+        <div className="room">
           <h3>Otras comodidades</h3>
           <ul>
             <li>Frente a la alberca</li>
@@ -126,7 +126,7 @@ export default function Home() {
             <li>Detector de humo</li>
           </ul>
         </div>
-        <div>
+        <div className="room">
           <h3>Atracciones</h3>
         </div>
       </div>

@@ -10,6 +10,7 @@ a {
 }
 body {
   font-family: 'Lato', sans-serif;
+  color: #2E3440;
 }
 body::-webkit-scrollbar{
   visibility: hidden;
@@ -35,7 +36,7 @@ main .section::-webkit-scrollbar{
   display: none;
 }
 .summary {
-  background-color: #FAFAFA;
+  background-color: #ECEFF4;
   border-radius: 16px;
   min-height: 53.6px;
   overflow-y: hidden;
@@ -55,18 +56,22 @@ main .section::-webkit-scrollbar{
   white-space: nowrap;
   gap: 8px;
   font-size: 14px;
+  color: #2E3440;
   transition: background-color 0.2s;
 }
 .item:hover {
-  background-color: #EEEEEE;
+  background-color: #E5E9F0;
 }
 h1 {
   font-size: 32px;
   font-weight: 400;
 }
+h3, h1 {
+  color: #2E3440;
+}
 h2{
   font-size: 16px;
-  color: #757575;
+  color: #4C566A;
   font-weight: 400;
 }
 .reel {
@@ -86,7 +91,14 @@ h2{
   overflow: hidden;
   border-radius: 8px;
 }
-
+.room {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #FBE9E7;
+  padding: 16px 16px 16px 16px;
+  border-radius: 16px;
+}
 @media screen and (max-width: 480px) {
   main {
     flex-direction: column;
