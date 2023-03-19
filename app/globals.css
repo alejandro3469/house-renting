@@ -41,6 +41,7 @@ main .section::-webkit-scrollbar{
   overflow-y: hidden;
   overflow-x: scroll;
   display: flex;
+  max-width: 80vw;
 }
 .summary::-webkit-scrollbar{
   visibility: hidden;
@@ -84,4 +85,12 @@ h2{
   min-height: 400px;
   overflow: hidden;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
 }
