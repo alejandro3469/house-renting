@@ -131,7 +131,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="section reel">
+      <div id="reel" className="section reel">
         <div className="image-container">
           <Image
             src={profilePic}

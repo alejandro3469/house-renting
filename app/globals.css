@@ -108,6 +108,9 @@ h2{
   main .section {
     max-width: 100vw;
   }
+  #reel {
+    display: none;
+  }
   .reel {
     display: none;
   }
