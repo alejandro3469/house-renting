@@ -1,3 +1,3 @@
 export async function GET(request: Request) {
-  return new Response('Hello, Next.js!')
+  return new Response('Hello, Next.js! . Photo by 30Nudos Adicora: https://www.pexels.com/photo/sun-loungers-around-the-pool-in-a-resort-13696645/ . Photo by Pixabay: https://www.pexels.com/photo/palm-trees-at-night-258154/ . Photo by Ksenia Chernaya: https://www.pexels.com/photo/minimalist-interior-style-with-wooden-table-and-chairs-at-home-3952048/ . Photo by Jean van der Meulen: https://www.pexels.com/photo/photo-of-bedroom-1454806/ . Photo by Nana Lapushkina: https://www.pexels.com/photo/bathroom-with-a-window-over-a-bathtub-12002198/ . Photo by MESSALA CIULLA: https://www.pexels.com/photo/body-of-water-underneath-golden-hour-1040873/ . Photo by Alex Azabache: https://www.pexels.com/photo/gray-pyramid-on-grass-field-during-day-3290068/ . Photo by Pixabay: https://www.pexels.com/photo/animal-flamingo-wildlife-head-35658/')
 }
