@@ -21,12 +21,12 @@ export default function Home() {
         height={404.375}
       />
       <div className="section">
-        <div>
+        <div className="room">
           <h1>Casa Uxmal</h1>
           <h2>Mérida, Yucatán</h2>
         </div>
 
-        <div>
+        <div className="room">
           <h3>Comodidades</h3>
           <div className="summary">
             <a href={"#bedrooms"} className="item">
@@ -80,10 +80,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className="room dark">
           <h3>Descripcion</h3>
         </div>
-        <div>
+        <div className="room">
           <h3>Galeria</h3>
           <div id="reel" className="reel">
             <div className="image-container">
@@ -113,7 +113,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className="room dark">
           <h3>Ubicacion</h3>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12728549.208789088!2d-92.90230709857525!3d21.300425125660738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567b387aa3439b%3A0xca5915bdd39e84c5!2sLas%20Palmas%20Yucat%C3%A1n!5e0!3m2!1sen!2smx!4v1679264507243!5m2!1sen!2smx"
@@ -156,21 +156,21 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="livingroom" className="room">
+        <div id="livingroom" className="room dark">
           <h3>Sala</h3>
         </div>
         <div id="diningroom" className="room">
           <h3>Comedor</h3>
           con mesa y 6 sillas
         </div>
-        <div id="kitchen" className="room">
+        <div id="kitchen" className="room dark">
           <h3>Cocina</h3>
           Estufa Refrigerador Fregadero Cafetera
         </div>
         <div id="pool" className="room">
           <h3>Alberca</h3>
         </div>
-        <div className="room">
+        <div className="room dark">
           <h3>Patio trasero</h3>
         </div>
         <div className="room">
@@ -183,7 +183,7 @@ export default function Home() {
             <li>Detector de humo</li>
           </ul>
         </div>
-        <div className="room">
+        <div className="room dark">
           <h3>Atracciones</h3>
         </div>
       </div>

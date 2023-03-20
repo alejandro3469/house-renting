@@ -27,7 +27,6 @@ main {
   color: #0A0A0A;
 }
 main .section {
-  padding: 32px;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -74,7 +73,7 @@ h2{
 }
 .reel {
   width: 364px;
-  max-width: 364px;
+  min-width: 100%;
   min-height: 400px;
   gap: 16px;
   transition: background-color 0.2s;
@@ -102,8 +101,12 @@ h2{
   flex-direction: column;
   gap: 8px;
   background-color: inherit;
-  padding: 16px 16px 16px 16px;
-  border-radius: 16px;
+  padding: 32px;
+}
+
+.dark {
+  background-color: #0A0A0A;
+  color: #D8D2BF;
 }
 @media screen and (max-width: 480px) {
   main {
