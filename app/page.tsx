@@ -22,7 +22,7 @@ export default function Home() {
       />
       <div className="section">
         <div>
-          <h1>Casa completa</h1>
+          <h1>Casa Uxmal</h1>
           <h2>Mérida, Yucatán</h2>
         </div>
 

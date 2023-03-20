@@ -10,23 +10,23 @@ a {
 }
 body {
   font-family: 'Lato', sans-serif;
-  color: #2E3440;
+  background-color: #D8D2BF;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 body::-webkit-scrollbar{
   visibility: hidden;
   display: none;
 }
 main {
-  color: #212121;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  color: #0A0A0A;
 }
 main .section {
-  height: 100vh;
-  max-height: 100vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -56,7 +56,6 @@ main .section::-webkit-scrollbar{
   white-space: nowrap;
   gap: 8px;
   font-size: 14px;
-  color: #2E3440;
   transition: background-color 0.2s;
 }
 .item:hover {
@@ -64,14 +63,13 @@ main .section::-webkit-scrollbar{
 }
 h1 {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 700;
 }
 h3, h1 {
-  color: #2E3440;
+  color: inherit;
 }
 h2{
   font-size: 16px;
-  color: #4C566A;
   font-weight: 400;
 }
 .reel {
@@ -86,6 +84,10 @@ h2{
 }
 .reel:hover {
   background-color: inherit;
+}
+.reel::-webkit-scrollbar{
+  visibility: hidden;
+  display: none;
 }
 .image-container {
   width: 300px;
