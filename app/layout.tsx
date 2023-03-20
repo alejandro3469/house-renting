@@ -7,8 +7,8 @@ const roboto = Poppins  ({
 });
 
 export const metadata = {
-  title: 'Casa en Merida, Yucatan',
-  description: 'CRenta de casa completa con alberca en Merida Yucatan',
+  title: 'Casa Uxmal - Merida',
+  description: 'Renta de casa completa con alberca en Merida, Yucatan',
   keywords: ['Merida', 'Yucatan', 'Renta', 'Casa', 'Vacaciones'],
 }
 
