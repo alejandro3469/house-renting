@@ -12,7 +12,9 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: #D8D2BF;
   height: 100vh;
+  width: 100vw;
   max-height: 100vh;
+  max-width: 100vw;
   overflow-x: hidden;
   overflow-y: scroll;
 }

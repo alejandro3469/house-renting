@@ -20,8 +20,9 @@ export default function Home() {
         width={606.625}
         height={404.375}
       />
+
       <div className="section">
-        <div className="room">
+        <div className="room dark">
           <h1>Casa Uxmal</h1>
           <h2>Mérida, Yucatán</h2>
         </div>
