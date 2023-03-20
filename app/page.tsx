@@ -14,13 +14,13 @@ import Pool from "../public/icons/pool_black_24dp.svg";
 export default function Home() {
   return (
     <main>
+      <Image
+        src={Banner}
+        alt="Picture of the author"
+        width={606.625}
+        height={404.375}
+      />
       <div className="section">
-        <Image
-          src={Banner}
-          alt="Picture of the author"
-          width={606.625}
-          height={404.375}
-        />
         <div>
           <h1>Casa completa</h1>
           <h2>Mérida, Yucatán</h2>

@@ -20,6 +20,7 @@ main {
   color: #212121;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 main .section {
   height: 100vh;
@@ -40,7 +41,7 @@ main .section::-webkit-scrollbar{
   max-width: 80vw;
   background-color: inherit;
   display: grid;
-  grid-template-columns: repeat(3, 0fr);
+  grid-template-columns: repeat(2, 0fr);
   gap: 8px;
 }
 .summary::-webkit-scrollbar{
@@ -81,12 +82,14 @@ h2{
   transition: background-color 0.2s;
   display: flex;
   flex-direction: row;
+  overflow-x: scroll;
 }
 .reel:hover {
   background-color: inherit;
 }
 .image-container {
   width: 300px;
+  min-width: 300px;
   height: 400px;
   min-height: 400px;
   overflow: hidden;
@@ -108,11 +111,5 @@ h2{
   }
   main .section {
     max-width: 100vw;
-  }
-  #reel {
-    display: none;
-  }
-  .reel {
-    display: none;
   }
 }
