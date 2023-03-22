@@ -114,16 +114,15 @@ h2{
   flex-direction: column;
   gap: 8px;
   background-color: inherit;
-  background-color: #fafafa;
+  background-color: inherit;
   color: #252525;
   padding: 16px;
   border-radius: 8px;
 }
-
-.dark {
+.t {
   background-color: #fafafa;
-  color: #252525;
 }
+
 @media screen and (max-width: 480px) {
   body{
     max-width: 100vw;

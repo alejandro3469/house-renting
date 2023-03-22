@@ -20,7 +20,7 @@ export default function Home() {
         width={606.625}
         height={404.375}
       />
-      <div className="room dark">
+      <div className="room t">
         <h1 className="title">Casa Uxmal</h1>
         <h2>Mérida, Yucatán</h2>
       </div>
