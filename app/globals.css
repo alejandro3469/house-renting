@@ -10,7 +10,8 @@ a {
 }
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #D8D2BF;
+  background-color: #EBE9E4;
+  color: #252525;
   height: 100vh;
   width: 100vw;
   max-height: 100vh;
@@ -21,14 +22,17 @@ body {
 body::-webkit-scrollbar{
   visibility: hidden;
   display: none;
+  
 }
 main {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  color: #0A0A0A;
   max-width: 100vw;
   overflow-x: hidden;
+}
+.rooms {
+  padding: 32px;
 }
 main .section {
   display: flex;
@@ -66,15 +70,17 @@ main .section::-webkit-scrollbar{
 .item:hover {
   background-color: inherit;
 }
-h1 {
-  font-size: 32px;
-  font-weight: 700;
+.title {
+  font-size: 64px;
+  font-weight: 400  ;
 }
 h3, h1 {
+  font-size: 24px;
   color: inherit;
+  font-weight: 400;
 }
 h2{
-  font-size: 16px;
+  font-size: 32px;
   font-weight: 400;
 }
 .reel {
@@ -101,18 +107,22 @@ h2{
   min-height: 400px;
   overflow: hidden;
   border-radius: 8px;
+  
 }
 .room {
   display: flex;
   flex-direction: column;
   gap: 8px;
   background-color: inherit;
-  padding: 32px;
+  background-color: #fafafa;
+  color: #252525;
+  padding: 16px;
+  border-radius: 8px;
 }
 
 .dark {
-  background-color: #0A0A0A;
-  color: #D8D2BF;
+  background-color: #fafafa;
+  color: #252525;
 }
 @media screen and (max-width: 480px) {
   main {
